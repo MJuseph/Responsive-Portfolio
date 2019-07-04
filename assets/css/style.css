@@ -215,3 +215,84 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+@media screen and (max-width: 980px) {
+.main-section{
+width: 70%;  }
+nav{
+  position: relative;
+  right: 40px;
+}
+.work{
+  display: block;
+}
+}
+/* tablet size */
+@media screen and (max-width: 768px){
+.main-section{
+  width: 100%;
+}
+nav{
+  position: relative;
+  right: 40px;
+}
+.auth-image{
+  width: 400px;
+}
+.submit{
+  position: relative;
+  left: 40px;
+}
+
+
+
+
+}
+/* phone size */
+@media screen and (max-width: 640px){
+.main-section{
+  width: 100%;
+  margin: auto;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+header{
+  position: static;
+}
+nav{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  position: static;
+  align-self: center;
+  
+}
+#logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  
+}
+p{
+  clear: both;
+  font-size: 15px;
+}
+.auth-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.submit{
+  display: block;
+  
+}
+.work{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+
+}
+}
